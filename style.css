@@ -1,0 +1,82 @@
+/* variables */
+:root {
+  /* colors */
+  --bc: #000;
+  --button1st: #e2e2e2;
+}
+
+/* reset */
+body,
+p,
+a,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+/* base styles */
+
+* {
+  box-sizing: border-box;
+  /* outline: 2px dotted red; */
+}
+body {
+  text-align: center;
+  background-color: hsl(169deg 3% 8%);
+}
+/* fonts */
+
+/* mobil 320px first styles */
+
+main {
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  max-width: 80vw;
+  margin: auto;
+}
+h1 {
+  color: rgb(156 204 101);
+}
+h2 {
+  color: rgb(77 208 225);
+}
+h4 {
+  color: hsl(84deg 15% 94%);
+}
+button,
+#button {
+  font: small-caps bold 11px/30px Georgia, serif;
+  color: hsl(233deg 88% 41%);
+  padding: 0.7rem 4rem;
+  background: linear-gradient(135deg, rgba(255, 255, 255.1), rgba(255, 255, 255, 0));
+  /* -webkit-backdrop-filter: blur(20%);
+  backdrop-filter: blur(20%); */
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 6px;
+}
+
+.pop_up {
+  display: none;
+  position: absolute;
+  top: 20%;
+  left: 35%;
+  width: 50%;
+  height: auto;
+  background-color: purple;
+}
+.pop_up.open {
+  display: block;
+}
+/* small tablet styles */
+@media screen and (min-width: 620px) {
+}
+/* large tablets and laptop styles */
+@media screen and (min-width: 960px) {
+}
+
+/* destop styles */
+@media screen and (min-width: 1200px) {
+}
