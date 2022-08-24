@@ -61,11 +61,12 @@ button,
 .pop_up {
   display: none;
   position: absolute;
-  top: 20%;
-  left: 35%;
-  width: 50%;
-  height: auto;
-  background-color: purple;
+  top: 20vh;
+  left: 40vw;
+  width: 20vw;
+  height: 25vh;
+  background-color: rgb(236, 142, 236);
+  border-radius: 15px;
 }
 .pop_up.open {
   display: block;
